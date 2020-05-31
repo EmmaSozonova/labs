@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Django Public Blog - Зарегистрироваться </title>
+	<link rel="stylesheet" href="{{ STATIC_URL }}/static/register.css">
+</head>
+<body>
+	<div class="content">
+		<h1>Вход</h1>
+		<div style="float: right; color: #fff;">
+			<p><a style="color: #fff" href="{{ STATIC_URL }}/reg">Зарегистрироваться</a></p>
+			<p><a style="color: #fff" href="{{ STATIC_URL }}/article/new">Писать статьи</a></p>
+			<p><a style="color: #fff" href="{{ STATIC_URL }}/archive">Каталог</a></p>
+		</div>
+		<form method="POST">{% csrf_token %}
+			<div class="inner"><input type="text" name="name" placeholder="Имя " value="{{ form.name }}"></div>
+			<div class="inner"><input type="text" name="pass" placeholder="Пароль " value="{{ form.pass }}"></div>
+			<div class="inner"><input type="submit" value="Далее"></div>
+		</form>
+		{{ form.errors }}
+	</div>
+</body>
+</html>

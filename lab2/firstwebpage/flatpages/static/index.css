@@ -1,0 +1,26 @@
+body {
+background: #40fc23;
+font-family: Times New Roman, Arial, sans-serif; color: #156;
+}
+table {
+border-collapse: collapse;
+}
+p, h4 {
+font-size: 20px; margin-bottom: 0;
+}
+h4 {
+font-size: 14px;
+}
+ul, ol {
+margin: 0;
+}
+table tr td {
+padding: 5px;
+}
+table {
+width: 100%;
+}
+
+img {
+height: 30px; width: auto;
+}

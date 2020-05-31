@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "firstwebpage", "firstwebpage.pyproj", "{8A1F60E7-BA29-4408-A7EB-262FB46C6558}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A1F60E7-BA29-4408-A7EB-262FB46C6558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1F60E7-BA29-4408-A7EB-262FB46C6558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1F60E7-BA29-4408-A7EB-262FB46C6558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1F60E7-BA29-4408-A7EB-262FB46C6558}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B58CEB27-AC04-4DCB-857E-E4BABDDFA021}
+	EndGlobalSection
+EndGlobal
